@@ -6,7 +6,7 @@
 **Issue:** Couldn't access `A22.month` due to missing getter methods.  
 **Solution:** Initially implemented reflection (`getDeclaredField()`), but later realized this violated encapsulation principles, so I added getter method.
 
-### Challenge 3: Feature Scope Definition
+### Challenge 2: Feature Scope Definition
 **Issue:** Over-engineered the room service feature with unnecessary attributes like "priority level".  
 **Solution:** Simplified to core requirements by reviewing the LMS example and removing non-essential components.
 
